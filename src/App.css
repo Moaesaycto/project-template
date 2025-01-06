@@ -1,0 +1,20 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 2rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Barlow, sans-serif;
+  background-color: #242424;
+}
+
+main {
+  flex: 1;
+  padding-top: 60px;
+  max-width: 1280px;
+  align-self: center;
+}
