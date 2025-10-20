@@ -4,7 +4,7 @@
 
 ## **Overview**
 
-**Project Template** is my custom Vite and TypeScript starter setup that I clone when beginning new web projects. It provides a ready-to-use foundation with consistent styling and structure. You can see this template [live](https://moaesaycto.github.io/project-template/)
+**Project Template** is my custom Vite and TypeScript starter setup that I clone when beginning new web projects. It provides a ready-to-use foundation with consistent styling and structure. You can see this template [live](https://moaesaycto.github.io/project-template/).
 
 ## **Features**
 
