@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# **Project Template**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Type:** Web App Starter · **Tech Stack:** Vite, TypeScript, React · **Status:** Active
 
-Currently, two official plugins are available:
+## **Overview**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Project Template** is my custom Vite and TypeScript starter setup that I clone when beginning new web projects. It provides a ready-to-use foundation with consistent styling and structure.
 
-## Expanding the ESLint configuration
+## **Features**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* **Prebuilt Components:** Includes reusable UI elements and custom CSS for rapid prototyping.
+* **Social Embedding:** Metadata configured for clean previews on Facebook, LinkedIn, Discord, and X/Twitter.
+* **Developer Ready:** Optimised build settings and directory layout for fast setup and deployment.
 
-- Configure the top-level `parserOptions` property like this:
+## **Purpose**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Built to standardise my workflow and reduce setup time across new web projects.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## **Future Plans**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+In the future, SEO optimisation will be automated on this, so any future projects can be cloned and immediatey eligible for indexing once they have been deployed.
